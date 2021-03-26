@@ -1,0 +1,29 @@
+#heading {
+    text-align: center;
+}
+
+hr {
+    transform-origin: 70%;
+}
+
+#addnote {
+    margin: auto;
+    width : 60%;
+
+    padding: 10px;
+}
+
+#addnotetxt {
+    margin    : auto;
+    width     : 30%;
+    text-align: start;
+}
+
+#addTxt {
+    border-color: #6ffc03;
+    border-width: medium;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
