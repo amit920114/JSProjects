@@ -1,4 +1,5 @@
 console.log("First Project");
+showNotes();
 
 let addBtn =  document.getElementById('addBtn');
 addBtn.addEventListener("click", function(e){
@@ -16,6 +17,8 @@ addBtn.addEventListener("click", function(e){
     // console.log("amit")
     showNotes();
 })
+
+// console.log(title)
  function showNotes(){
     let notes = localStorage.getItem("notes");
     if(notes == null){
@@ -31,7 +34,7 @@ addBtn.addEventListener("click", function(e){
      <div class="card my-2 mx-2" style="width: 18rem;">
      
      <div class="card-body">
-       <h5 class="card-title">Note ${index +1}</h5>
+       <h5 class="card-title">Note ${index + 1}</h5>
        <p class="card-text">${element}</p>
     
      </div>
